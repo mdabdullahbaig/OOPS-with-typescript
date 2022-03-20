@@ -1,11 +1,16 @@
 export class Mobile {
   // Access Modifier && Properties
-  private brand: string;
-  private color: string;
-  private price: number;
+  // private brand: string;
+  // private color: string;
+  // private price: number;
 
   // Constructor
-  constructor(brand: string, color: string, price: number) {
+  // Shorhand Initializantion
+  constructor(
+    private brand: string,
+    private color: string,
+    private price: number
+  ) {
     this.brand = brand;
     this.color = color;
     this.price = price;
