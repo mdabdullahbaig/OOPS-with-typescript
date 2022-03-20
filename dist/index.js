@@ -1,8 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const Department_1 = require("./Department");
-const Employee_1 = require("./Employee");
+const AppleMobile_1 = require("./classes/AppleMobile");
+const Department_1 = require("./classes/Department");
+const Employee_1 = require("./classes/Employee");
+const Mobile_1 = require("./classes/Mobile");
 // Instantiation
 const dep = new Department_1.Department(1, "CSE", "Bangalore");
 const emp = new Employee_1.Employee(1, "Abdul", 24, "abdul@gmail.com", false, dep);
 console.log(emp);
+const mobile = new Mobile_1.Mobile("Apple", "white", 39000);
+console.log(mobile.getBrand);
+console.log(mobile.getColor);
+console.log(mobile.getPrice);
+console.log(mobile);
+mobile.setPrice = 49000;
+console.log(mobile.getPrice);
+console.log(mobile);
+const appleMobile = new AppleMobile_1.AppleMobile("Apple", "Silver", 79000, "IOS", "iPhone 13");
+console.log(appleMobile);
