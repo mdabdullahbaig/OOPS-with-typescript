@@ -18,3 +18,4 @@ console.log(mobile.getPrice);
 console.log(mobile);
 const appleMobile = new AppleMobile_1.AppleMobile("Apple", "Silver", 79000, "IOS", "iPhone 13");
 console.log(appleMobile);
+console.log(appleMobile.getBrand);

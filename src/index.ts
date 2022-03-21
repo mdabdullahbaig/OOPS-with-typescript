@@ -28,3 +28,4 @@ const appleMobile = new AppleMobile(
   "iPhone 13"
 );
 console.log(appleMobile);
+console.log(appleMobile.getBrand);

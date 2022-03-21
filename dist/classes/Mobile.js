@@ -2,8 +2,16 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Mobile = void 0;
 class Mobile {
+    // Access Modifier && Properties
+    // private brand: string;
+    // private color: string;
+    // private price: number;
     // Constructor
+    // Shorhand Initializantion
     constructor(brand, color, price) {
+        this.brand = brand;
+        this.color = color;
+        this.price = price;
         this.brand = brand;
         this.color = color;
         this.price = price;
