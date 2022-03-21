@@ -25,9 +25,15 @@ class Student implements IStudent {
       this.course
     }`;
   }
+
+  anotherMethod(): string {
+    return "This is comming from anotherMethod";
+  }
 }
 
 const std: IStudent = new Student("Abdullah", "Baig", 24, "Computer");
 
+const std1 = new Student("Arshad", "Baig", 22, "Commerce");
 console.log(std.fullName());
 console.log(std.bioGraphy());
+console.log(std1.anotherMethod());
